@@ -4,9 +4,9 @@ body {
   background-color: #1f2039;
 }
 
-a {
+a : hover {
   color: #242424;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 em {
@@ -38,4 +38,7 @@ li {
 .cta {
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
+}
+.cta : hover {
+  background : linear-gradient(#696484,#8788BA)
 }
